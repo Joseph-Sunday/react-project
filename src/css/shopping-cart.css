@@ -56,7 +56,7 @@ section .cart-product img {
 .product-right-section {
 	display: flex;
 	flex-direction: column;
-	gap: 3.6rem;
+	gap: 3.5rem;
 }
 
 .product-right-section .top {

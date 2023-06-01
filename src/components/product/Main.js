@@ -1,3 +1,4 @@
+import React, {useState} from 'react'; 
 import productBigImg from '../../images/Onboarding/product-big-image.png';
 import productImg from '../../images/Onboarding/product.png';
 import { Plus, Minus, Facebook } from '../../assets/vectors';
@@ -6,6 +7,16 @@ import {BsWhatsapp} from 'react-icons/bs';
 import {GrPrevious, GrNext} from 'react-icons/gr';
 
 function Main() {
+	const [count, setCount] = useState(1); 
+
+	const handleDecrement = () => {
+		setCount(prevCount => prevCount - 1)
+	}
+
+	const handleIncrement = () => {
+		setCount(prevCount => prevCount + 1)
+	}
+
 	return (
 		<section>
 			<div className='back-to-catalog'>
@@ -26,9 +37,9 @@ function Main() {
 					<div className='productDetail-quantity'>
 						<p>Quantity</p>
 						<span>
-							<button>-<Minus /></button>
-							<button>1</button>
-							<button>+</button>
+							<button onClick={handleDecrement}>-</button>
+							<button>{count}</button>
+							<button onClick={handleIncrement}>+</button>
 						</span>
 					</div>
 					<div className='add-to-cart-region'>
