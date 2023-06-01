@@ -1,6 +1,5 @@
 import { CartBtn, ShoppingBag, SearchBtn, Prev, Next } from '../../assets/vectors/';
-import {FaSearch} from 'react-icons/fa';
-import {GrPrevious, GrNext} from 'react-icons/gr'; 
+import {FaSearch} from 'react-icons/fa'; 
 
 function Header() {
 	return(
@@ -14,15 +13,6 @@ function Header() {
 				</div>
 				<div>
 					<FaSearch />
-				</div>
-			</div>
-
-			<div className='back-to-catalog'>
-				<div>
-					<p><GrPrevious /> Back to Catalog</p>
-				</div>
-				<div>
-					<p><GrPrevious /> Prev  Next <GrNext /></p> 
 				</div>
 			</div>
 		</header>

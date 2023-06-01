@@ -39,7 +39,9 @@ header .BP-productDetail {
 	font-size: 1.7rem;
 }
 
-header .back-to-catalog {
+/*PRODUCT MAIN STYLES*/	
+
+section .back-to-catalog {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -48,8 +50,6 @@ header .back-to-catalog {
 	color: #000;
 	font-size: 1.1rem;
 }
-
-/*PRODUCT MAIN STYLES*/	
 
  .productDetail-container {
 	display: flex;

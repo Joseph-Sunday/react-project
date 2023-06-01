@@ -1,9 +1,9 @@
 import Header from '../../components/product/Header';
-import Main from '../../components/product/Main';
+import Main from '../../components/shopping-cart/Main'
 import Footer from '../../components/product/Footer'; 
-import '../../css/productDetails.css'; 
+import '../../css/shopping-cart.css';
 
-function index() {
+function Index() {
 	return (
 		<div>
 			<Header />
@@ -13,4 +13,4 @@ function index() {
 	)
 }
 
-export default index
+export default Index
