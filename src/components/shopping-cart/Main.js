@@ -1,6 +1,7 @@
 import {GrPrevious, GrNext} from 'react-icons/gr';
 import {RxCross2} from 'react-icons/rx'
 import productImg from '../../images/Onboarding/product.png';
+import { FaPlus, FaMinus, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 function Main() {
 	const products = [
@@ -45,9 +46,9 @@ function Main() {
 									</div>
 									<div className='bottom'>
 										<div>
-											<button></button>
-											<button></button>
-											<button></button>
+											<button><FaMinus /></button>
+											<button>1</button>
+											<button><FaPlus /></button>
 										</div>
 										<h3>{product.price}</h3>
 									</div>
@@ -68,7 +69,9 @@ function Main() {
 						<p>Subtotal</p>
 						<p>NGN27,000</p>
 					</div>
-					<button>Proceed to Checkout</button>
+					<span className='center'>
+						<button>Proceed to Checkout</button>
+					</span>
 				</div>
 			</div>
 		</section>

@@ -1,3 +1,6 @@
+import { FaPlus, FaMinus, FaFacebook, FaInstagram } from 'react-icons/fa';
+import {BsWhatsapp} from 'react-icons/bs';
+
 function Footer() {
 	return (
 		<footer className='container'>
@@ -8,7 +11,11 @@ function Footer() {
 					<p>Contact</p>
 				</div>
 				<div className='top-left'>
-					<p>Social media</p>
+					<div>
+						<FaFacebook  className='fa fa-facebook' />
+						<FaInstagram className='fa fa-instagram' />
+						<BsWhatsapp className='fa fa-whatsapp' />
+					</div>
 				</div>
 			</div>
 
