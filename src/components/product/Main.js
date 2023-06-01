@@ -10,7 +10,8 @@ function Main() {
 	const [count, setCount] = useState(1); 
 
 	const handleDecrement = () => {
-		setCount(prevCount => prevCount - 1)
+		
+		setCount(prevCount =>prevCount==1?prevCount:prevCount - 1)
 	}
 
 	const handleIncrement = () => {

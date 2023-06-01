@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import {ArrowDown, CartBtn} from '../../assets/vectors'; 
 import productImg from '../../images/Onboarding/product.png';
 
@@ -64,6 +65,7 @@ function Products() {
 			price: 'NGN10,000'
 		},
 	]
+
 	return (
 		<section className='container'>
 
@@ -72,21 +74,24 @@ function Products() {
 				<p>Featured <span><ArrowDown/></span></p>
 			</div>
 
-			<div className='products'>
-				{
-					products.map((product) => (
-						<div className='product' key={product.id}>
-							<img src={productImg} alt='product image' />
-							<p>{product.title}</p>
-							<h3>{product.price}</h3>
-						</div>
-					))
-				}
-			</div>
-
-			<div className='add-to-cart'>
-				<h5>Add to Cart</h5>
-			</div>
+			<Link to='/product-detail' className='product-link'>
+				<div className='products'>
+					{
+						products.map((product) => (
+							<div className='product' key={product.id}>
+								<img src={productImg} alt='product image' />
+								<p>{product.title}</p>
+								<h3>{product.price}</h3>
+								<Link to='/shopping-cart'>
+									<div className='add-to-cart'>
+										<h5>Add to Cart</h5>
+									</div>
+								</Link>
+							</div> 
+						))
+					}
+				</div>
+			</Link>
 
 		</section>
 	)

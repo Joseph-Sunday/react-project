@@ -1,3 +1,4 @@
+import React, {Link} from 'react-router-dom';
 import headerImg from '../../images/Onboarding/header.png'; 
 import {CartBtn,ShoppingBag} from '../../assets/vectors'; 
 
@@ -18,7 +19,9 @@ function StoreHeader() {
 						<div>
 							<h2>Bambam's Perfume Store</h2>
 						</div>
-						<div className="cartBtn"><ShoppingBag/></div>
+						<Link to='/shopping-cart' className='cart-link'>
+							<div className="cartBtn"><ShoppingBag/></div>
+						</Link>
 					</div>
 
 					<div className='store-desc'>
