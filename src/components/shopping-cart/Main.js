@@ -1,24 +1,19 @@
-import React, {useState, useReducer} from 'react';
+import React, {useState} from 'react';
 import {GrPrevious, GrNext} from 'react-icons/gr';
 import {RxCross2} from 'react-icons/rx'
 import productImg from '../../images/Onboarding/product.png';
 import { FaPlus, FaMinus, FaFacebook, FaInstagram } from 'react-icons/fa';
 
-const initialState = 1
-
-const reducer = (state, action) => {
-	switch(action) {
-		case 'increment':
-			return state + 1
-		case 'decrement':
-			return state - 1
-		default:
-			return state
-	} 
-}
-
 function Main() {
-	const [count, dispatch] = useReducer(reducer, initialState);
+	const [count, setCount] = useState(1);
+
+	const handleDecrement = () => {
+		setCount(prevCount => prevCount == 1 ? prevCount : prevCount - 1)
+	}
+
+	const handleIncrement = () => {
+		setCount(prevCount => prevCount + 1)
+	}
 
 	const products = [
 		{
@@ -62,9 +57,9 @@ function Main() {
 									</div>
 									<div className='bottom'>
 										<div>
-											<button onClick={() => dispatch('decrement')}><FaMinus /></button>
+											<button onClick={handleDecrement}><FaMinus /></button>
 											<button>{count}</button>
-											<button onClick={() => dispatch('increment')}><FaPlus /></button>
+											<button onClick={handleIncrement}><FaPlus /></button>
 										</div>
 										<h3>{product.price}</h3>
 									</div>

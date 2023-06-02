@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, {useState} from 'react'; 
 import productBigImg from '../../images/Onboarding/product-big-image.png';
 import productImg from '../../images/Onboarding/product.png';
@@ -44,7 +45,9 @@ function Main() {
 						</span>
 					</div>
 					<div className='add-to-cart-region'>
-						<button>Add to cart</button>
+						<Link to='/shopping-cart'>
+							<button>Add to cart</button>
+						</Link>
 						<p>Share this product with friends:</p>
 						<FaFacebook className='fa-social facebook'/>
 						<FaInstagram className='fa-social instagram'/>

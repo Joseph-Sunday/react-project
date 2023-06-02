@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import { CartBtn, ShoppingBag, SearchBtn, Prev, Next } from '../../assets/vectors/';
 import {FaSearch} from 'react-icons/fa'; 
 
@@ -5,9 +6,9 @@ function Header() {
 	return(
 		<header>
 			<div className='productDetail-head'>
-				<div className='BP-productDetail'>
+				<Link to='/' className='BP-productDetail'>
 					<p>BP</p>
-				</div>
+				</Link>
 				<div>
 					<h1>Bambam's Perfume Store</h1>
 				</div>
