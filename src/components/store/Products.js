@@ -63,8 +63,7 @@ function Products() {
 			id: 12, 
 			title: 'Bleu Perfume', 
 			price: 'NGN10,000'
-		},
-	]
+		},]
 
 	return (
 		<section className='container'>
