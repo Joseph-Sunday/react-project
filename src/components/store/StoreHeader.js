@@ -18,10 +18,10 @@ function StoreHeader() {
 					<div className='store-name'>
 						<div>
 							<h2>Bambam's Perfume Store</h2>
+							<Link to='/shopping-cart' className='cart-link'>
+								<div className="cartBtn"><ShoppingBag/></div>
+							</Link>
 						</div>
-						<Link to='/shopping-cart' className='cart-link'>
-							<div className="cartBtn"><ShoppingBag/></div>
-						</Link>
 					</div>
 
 					<div className='store-desc'>
