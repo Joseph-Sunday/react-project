@@ -156,3 +156,7 @@ section .cart-summary {
 .cart-summary .center {
 	align-items: center;
 }
+
+@media screen and (min-width: 400px) {
+		
+}

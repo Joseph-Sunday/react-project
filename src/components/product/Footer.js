@@ -8,7 +8,7 @@ function Footer() {
 			<div className='productDetail-footer-top-section'>
 				<div>
 					<VscAccount className='account-icon' />
-					<ShoppingBag color="black" />
+					<ShoppingBag color="black" width="1" />
 				</div>
 				<div>
 					<p>My Account</p>
