@@ -39,7 +39,6 @@ function Main() {
 				<p>Store <GrNext className='next'/> Shopping Cart</p>
 				<div>
 					<h2>Shopping cart</h2>
-					<h2>Cart Summary</h2>
 				</div>
 			</div>
 			<div className='cart'>
@@ -68,21 +67,24 @@ function Main() {
 						))
 					}
 				</div>
-				<div className='cart-summary'>
-					<div>
-						<p>3 Items</p>
+				<h2>Cart Summary</h2>
+				<div>
+					<div className='cart-summary'>
+						<div>
+							<p>3 Items</p>
+						</div>
+						<div>
+							<p>Escrow Fee</p>
+							<p>NGN1,200</p>
+						</div>
+						<div>
+							<p>Subtotal</p>
+							<p>NGN27,000</p>
+						</div>
+						<span className='center'>
+							<button>Proceed to Checkout</button>
+						</span>
 					</div>
-					<div>
-						<p>Escrow Fee</p>
-						<p>NGN1,200</p>
-					</div>
-					<div>
-						<p>Subtotal</p>
-						<p>NGN27,000</p>
-					</div>
-					<span className='center'>
-						<button>Proceed to Checkout</button>
-					</span>
 				</div>
 			</div>
 		</section>
