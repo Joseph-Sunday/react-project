@@ -37,13 +37,13 @@ section .cart {
 	width: 95%;
 	margin: auto;
 	display: flex;
-	align-items: start;
+	align-items: flex-start;
 	gap: 5rem;
 }
 
 .cart-product {
 	display: flex;
-	align-items: start;
+	align-items: flex-start;
 	gap: 1.3rem;
 }
 
@@ -129,14 +129,14 @@ section .cart-summary {
 .cart-summary div:nth-child(2) {
 	display: flex;
 	justify-content: space-between;
-	align-items: start;
+	align-items: flex-start;
 	padding: 2rem 0 1rem;
 }
 
 .cart-summary div:nth-child(3) {
 	display: flex;
 	justify-content: space-between;
-	align-items: start;
+	align-items: flex-start;
 	padding: 2rem 0 1rem;
 }
 
@@ -194,14 +194,14 @@ section .cart-summary {
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		gap: 1.5rem;
 		flex-direction: column;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -292,14 +292,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -361,7 +361,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -451,14 +451,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -516,7 +516,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -606,14 +606,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -671,7 +671,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -761,14 +761,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -826,7 +826,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -916,14 +916,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -981,7 +981,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -1071,14 +1071,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -1136,7 +1136,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -1227,14 +1227,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -1292,7 +1292,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -1383,14 +1383,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -1448,7 +1448,7 @@ section .cart-summary {
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -1539,14 +1539,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -1606,13 +1606,13 @@ section .cart-summary {
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		flex-direction: row;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -1703,14 +1703,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -1770,13 +1770,13 @@ section .cart-summary {
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		flex-direction: row;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -1867,14 +1867,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -1934,13 +1934,13 @@ section .cart-summary {
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		flex-direction: row;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -2031,14 +2031,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -2098,14 +2098,14 @@ section .cart-summary {
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		flex-direction: row;
 		gap: 0rem;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -2196,14 +2196,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -2263,14 +2263,14 @@ section .cart-summary {
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		flex-direction: row;
 		gap: 0rem;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -2361,14 +2361,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -2428,14 +2428,14 @@ section .cart-summary {
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		flex-direction: row;
 		gap: 0rem;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -2526,14 +2526,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
@@ -2592,15 +2592,15 @@ section .cart-summary {
 		width: 90%;
 		margin: auto;
 		display: flex;
-		justify-content: start;
-		align-items: start;
+		justify-content: flex-start;
+		align-items: flex-start;
 		flex-direction: row;
 		gap: 5rem;
 	}
 
 	.cart-product {
 		display: flex;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: space-between;
 		gap: 1rem;
 	}
@@ -2691,14 +2691,14 @@ section .cart-summary {
 	.cart-summary div:nth-child(2) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
 	.cart-summary div:nth-child(3) {
 		display: flex;
 		justify-content: space-between;
-		align-items: start;
+		align-items: flex-start;
 		padding: 2rem 0 1rem;
 	}
 
