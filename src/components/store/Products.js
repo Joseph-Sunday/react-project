@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import {ArrowDown, CartBtn} from '../../assets/vectors'; 
+import {ArrowDown} from '../../assets/vectors'; 
 import productImg from '../../images/Onboarding/product.png';
 
 function Products() {

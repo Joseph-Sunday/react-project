@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
-import {GrPrevious, GrNext} from 'react-icons/gr';
+import {GrNext} from 'react-icons/gr';
 import {RxCross2} from 'react-icons/rx'
 import productImg from '../../images/Onboarding/product.png';
-import { FaPlus, FaMinus, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaPlus, FaMinus } from 'react-icons/fa';
 
 function Main() {
 	const [count, setCount] = useState(1);
 
 	const handleDecrement = () => {
-		setCount(prevCount => prevCount == 1 ? prevCount : prevCount - 1)
+		setCount(prevCount => prevCount === 1 ? prevCount : prevCount - 1)
 	}
 
 	const handleIncrement = () => {
@@ -48,7 +48,7 @@ function Main() {
 						products.map((product) => (
 							<div className='cart-product'>
 								<div>
-									<img src={productImg} alt='product image' />
+									<img src={productImg} alt="product image"/>
 								</div>
 								<div className='product-right-section'>
 									<div className='top'>

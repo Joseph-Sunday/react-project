@@ -1,4 +1,4 @@
-import { FaPlus, FaMinus, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import {BsWhatsapp} from 'react-icons/bs';
 
 function Footer() {

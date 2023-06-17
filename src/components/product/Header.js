@@ -1,5 +1,4 @@
 import {Link} from 'react-router-dom';
-import { CartBtn, ShoppingBag, SearchBtn, Prev, Next } from '../../assets/vectors/';
 import {FaSearch} from 'react-icons/fa'; 
 
 function Header() {

@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import React, {useState} from 'react'; 
 import productBigImg from '../../images/Onboarding/product-big-image.png';
 import productImg from '../../images/Onboarding/product.png';
-import { Plus, Minus, Facebook } from '../../assets/vectors';
-import { FaPlus, FaMinus, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import {BsWhatsapp} from 'react-icons/bs';
 import {GrPrevious, GrNext} from 'react-icons/gr';
 
@@ -12,7 +11,7 @@ function Main() {
 
 	const handleDecrement = () => {
 		
-		setCount(prevCount =>prevCount==1?prevCount:prevCount - 1)
+		setCount(prevCount =>prevCount===1?prevCount:prevCount - 1)
 	}
 
 	const handleIncrement = () => {

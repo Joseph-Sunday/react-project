@@ -1,4 +1,4 @@
-import {ShoppingBag, Profile, ArrowDown} from '../../assets/vectors'; 
+import {ShoppingBag} from '../../assets/vectors'; 
 import {RiCopyrightLine} from 'react-icons/ri';
 import {VscAccount} from 'react-icons/vsc';
 

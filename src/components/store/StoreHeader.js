@@ -1,6 +1,6 @@
 import React, {Link} from 'react-router-dom';
 import headerImg from '../../images/Onboarding/header.png'; 
-import {CartBtn,ShoppingBag} from '../../assets/vectors'; 
+import {ShoppingBag} from '../../assets/vectors'; 
 
 function StoreHeader() {
 	return (
