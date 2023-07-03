@@ -221,8 +221,8 @@ footer .top-left {
 	align-items: flex-start;
 	align-self: center;
 	gap: 1rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
 	font-size: .85rem;
 }
 
@@ -232,8 +232,8 @@ footer .bottom {
 	align-items: flex-start;
 	align-self: center;
 	gap: 1rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
 	font-size: .85rem;
 }
 
@@ -463,7 +463,7 @@ footer .top-left .fa-whatsapp {
 
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 350px) {
 /*	HEADER STYLES*/
 
 	header .BP {
@@ -651,11 +651,33 @@ footer .top-left .fa-whatsapp {
 
 	/*FOOTER STYLES*/
 
-	footer .top {
+		footer .top {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 5rem 0 3rem;
+		margin: 10rem 0 4rem;
+	}
+
+	footer .top-left {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
+	}
+
+	footer .bottom {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
 	}
 
 }
@@ -845,8 +867,30 @@ footer .top-left .fa-whatsapp {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 5rem 0 3rem;
+		margin: 10rem 0 4rem;
 	}
+
+	footer .top-left {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
+	}
+
+	footer .bottom {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
+	} 
 
 }
 
@@ -1035,8 +1079,30 @@ footer .top-left .fa-whatsapp {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 5rem 0 3rem;
+		margin: 10rem 0 4rem;
 	}
+
+	footer .top-left {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
+	}
+
+	footer .bottom {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
+	} 
 
 }
 
@@ -1225,7 +1291,29 @@ footer .top-left .fa-whatsapp {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 5rem 0 3rem;
+		margin: 10rem 0 4rem;
+	}
+
+	footer .top-left {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
+	}
+
+	footer .bottom {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-self: center;
+		gap: 1rem;
+		margin-left: 0rem;
+		margin-right: 0rem;
+		font-size: .85rem;
 	}
 
 }
