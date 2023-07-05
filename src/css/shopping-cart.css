@@ -430,6 +430,7 @@ section .cart-summary {
 		border-left: none;
 		font-weight: bold;
 		padding-top: .56rem;
+		bottom: .55rem;
 		color: #000;
 	}
 
@@ -2670,7 +2671,7 @@ section .cart-summary {
 		border-right: none;
 		border-left: none;
 		font-weight: bold;
-		padding-top: .7rem;
+		padding-top: .68rem;
 	}
 
 
