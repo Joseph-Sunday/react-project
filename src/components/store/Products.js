@@ -1,69 +1,13 @@
+import React, {useState} from 'react' 
 import {Link} from 'react-router-dom'
 import {ArrowDown} from '../../assets/vectors'; 
 import productImg from '../../images/Onboarding/product.png';
+import data from './data/data';
 
-function Products() {
-	const products = [
-		{
-			id: 1, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000',
-		},
-		{
-			id: 2, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 3, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 4, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 5, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 6, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 7, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 8, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		}, 
-		{
-			id: 9, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 10, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 11, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},
-		{
-			id: 12, 
-			title: 'Bleu Perfume', 
-			price: 'NGN10,000'
-		},]
+function Products({handleAddToCart}) {
+	const [cart, setCart] = useState([]);
+
+	const {products} = data;
 
 	return (
 		<section className='container'>
@@ -78,12 +22,12 @@ function Products() {
 					{
 						products.map((product) => (
 							<div className='product' key={product.id}>
-								<img src={productImg} alt='product image' />
+								<img src={product.img} alt='product image' className="store-productImg"/>
 								<p>{product.title}</p>
 								<h3>{product.price}</h3>
 								<Link to='/shopping-cart'>
 									<div className='add-to-cart'>
-										<h5>Add to Cart</h5>
+										<button onClick={()=> handleAddToCart(product)}>Add to Cart</button>
 									</div>
 								</Link>
 							</div> 

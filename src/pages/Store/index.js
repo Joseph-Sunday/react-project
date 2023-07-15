@@ -4,12 +4,12 @@ import Products from '../../components/store/Products';
 import Footer from '../../components/store/Footer';
 import '../../css/store.css'
 
-function index() {
+function index({handleAddToCart}) {
 	return(
 		<div>
 			<StoreHeader />
 			<SearchBar />
-			<Products />
+			<Products handleAddToCart={handleAddToCart} />
 			<Footer />
 		</div>	
 	)

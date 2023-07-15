@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 import React, {useState} from 'react'; 
+import { useCart } from 'react-use-cart';
+import { Link } from 'react-router-dom';
 import productBigImg from '../../images/Onboarding/product-big-image.png';
 import productImg from '../../images/Onboarding/product.png';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
@@ -17,6 +18,8 @@ function Main() {
 	const handleIncrement = () => {
 		setCount(prevCount => prevCount + 1)
 	}
+
+	const { addItem } = useCart(); 
 
 	return (
 		<section>
@@ -53,7 +56,7 @@ function Main() {
 						</div>
 						<div className='add-to-cart-region'>
 							<Link to='/shopping-cart'>
-								<button>Add to cart</button>
+								<button onClick={() => addItem()}>Add to cart</button>
 							</Link>
 							<p>Share this product with friends:</p>
 							<FaFacebook className='fa-social facebook'/>

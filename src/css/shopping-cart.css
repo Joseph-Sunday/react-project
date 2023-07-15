@@ -13,6 +13,13 @@ body {
 
 /*MAIN STYLES*/
 
+.cart-empty {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: auto;
+	width: 90%;
+}
+
 section .cart-heading {
 	width: 85%;
 	margin: 2rem auto;
@@ -161,6 +168,13 @@ section .cart-summary {
 @media screen and (min-width: 320px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -211,6 +225,7 @@ section .cart-summary {
 		width: 110px;
 		height: auto;
 		margin-bottom: 1.5rem;
+		border-radius: 10px;
 	}
 
 	.product-right-section {
@@ -324,6 +339,13 @@ section .cart-summary {
 
 @media screen and (min-width: 350px) {
 	/*MAIN STYLES*/
+
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
 
 	section .cart-heading {
 		width: 90%;
@@ -491,6 +513,13 @@ section .cart-summary {
 @media screen and (min-width: 410px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -645,6 +674,13 @@ section .cart-summary {
 
 @media screen and (min-width: 450px) {
 	/*MAIN STYLES*/
+
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
 
 	section .cart-heading {
 		width: 90%;
@@ -801,6 +837,13 @@ section .cart-summary {
 @media screen and (min-width: 500px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -956,6 +999,13 @@ section .cart-summary {
 @media screen and (min-width: 550px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -1110,6 +1160,13 @@ section .cart-summary {
 
 @media screen and (min-width: 600px) {
 	/*MAIN STYLES*/
+
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
 
 	section .cart-heading {
 		width: 90%;
@@ -1267,6 +1324,13 @@ section .cart-summary {
 @media screen and (min-width: 660px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -1423,6 +1487,13 @@ section .cart-summary {
 @media screen and (min-width: 750px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -1578,6 +1649,13 @@ section .cart-summary {
 
 @media screen and (min-width: 830px) {
 	/*MAIN STYLES*/
+
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
 
 	section .cart-heading {
 		width: 90%;
@@ -1743,6 +1821,13 @@ section .cart-summary {
 @media screen and (min-width: 900px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -1907,6 +1992,13 @@ section .cart-summary {
 @media screen and (min-width: 950px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -2070,6 +2162,13 @@ section .cart-summary {
 
 @media screen and (min-width: 1000px) {
 	/*MAIN STYLES*/
+
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
 
 	section .cart-heading {
 		width: 90%;
@@ -2236,6 +2335,13 @@ section .cart-summary {
 @media screen and (min-width: 1050px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -2401,6 +2507,13 @@ section .cart-summary {
 @media screen and (min-width: 1200px) {
 	/*MAIN STYLES*/
 
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
+
 	section .cart-heading {
 		width: 90%;
 		margin: 2rem auto;
@@ -2565,6 +2678,13 @@ section .cart-summary {
 
 @media screen and (min-width: 1333px) {
 	/*MAIN STYLES*/
+
+	.cart-empty {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: auto;
+		width: 90%;
+	}
 
 	section .cart-heading {
 		width: 90%;
