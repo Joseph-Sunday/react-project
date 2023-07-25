@@ -17,14 +17,15 @@ function Products({handleAddToCart}) {
 				<p>Featured <span><ArrowDown/></span></p>
 			</div>
 
-			<Link to='/product-detail' className='product-link'>
 				<div className='products'>
 					{
 						products.map((product) => (
 							<div className='product' key={product.id}>
-								<img src={product.img} alt='product image' className="store-productImg"/>
-								<p>{product.title}</p>
-								<h3>{product.price}</h3>
+								<Link to={`product-detail/${product.id}`} className='product-link'>
+									<img src={product.img} alt='product image' className="store-productImg"/>
+									<p>{product.title}</p>
+									<h3>{product.price}</h3>
+								</Link>
 								<Link to='/shopping-cart'>
 									<div className='add-to-cart'>
 										<button onClick={()=> handleAddToCart(product)}>Add to Cart</button>
@@ -33,8 +34,7 @@ function Products({handleAddToCart}) {
 							</div> 
 						))
 					}
-				</div>
-			</Link>
+				</div> 
 
 		</section>
 	)

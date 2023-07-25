@@ -303,6 +303,7 @@ section .back-to-catalog {
 		width: 100%;
 		height: auto;
 		margin: 1rem 0;
+		border-radius: 15px;
 	}
 
 	.productDetail-head div:last-child {
@@ -424,6 +425,7 @@ section .back-to-catalog {
 		width: 80px;
 		height: auto;
 		margin-bottom: .8rem;
+		border-radius: 10px;
 	}
 
 	.other-product-image img:first-child {

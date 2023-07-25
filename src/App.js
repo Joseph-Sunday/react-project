@@ -37,7 +37,7 @@ function App() {
   return <BrowserRouter>
     <Routes>
         <Route path='/' element={<StorePage handleAddToCart={handleAddToCart} />} />
-        <Route path='product-detail' element={<ProductPage handleAddToCart={handleAddToCart} />} />
+        <Route path='product-detail/:productId' element={<ProductPage handleAddToCart={handleAddToCart} />} />
         <Route path='shopping-cart' element={<ShoppingCartPage cartItems={cartItems} handleAddToCart={handleAddToCart} handleRemoveProduct={handleRemoveProduct} handleDeleteProduct={handleDeleteProduct} />} />
     </Routes>
   </BrowserRouter>
